@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService1.API", "MicroService1.API\MicroService1.API.csproj", "{AE326035-C0FA-4321-BEBD-D81E54625953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService2.API", "MicroService2.API\MicroService2.API.csproj", "{EBDD961D-D112-4CBA-A91F-D517D902C52A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{AE326035-C0FA-4321-BEBD-D81E54625953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE326035-C0FA-4321-BEBD-D81E54625953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE326035-C0FA-4321-BEBD-D81E54625953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDD961D-D112-4CBA-A91F-D517D902C52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDD961D-D112-4CBA-A91F-D517D902C52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDD961D-D112-4CBA-A91F-D517D902C52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDD961D-D112-4CBA-A91F-D517D902C52A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
