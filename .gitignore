@@ -1,0 +1,41 @@
+## Build results
+bin/
+obj/
+out/
+TestResults/
+*.ncrunch*
+*.coverage*
+*.coveragexml
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider, ReSharper, VS Code, VS
+.idea/
+.vscode/
+.vs/
+riderModule.iml
+/_ReSharper.Caches/
+
+## NuGet packages
+/packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET Core environment files
+appsettings.*.json
+secrets.json
+
+## Database files
+*.db
+*.sqlite
+
+## Others
+*.log
+*.tmp
