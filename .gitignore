@@ -39,3 +39,18 @@ secrets.json
 ## Others
 *.log
 *.tmp
+
+# Docker
+**/Dockerfile.*
+**/docker-compose*.yml
+.dockerignore
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.prod.yml
+docker-compose.test.yml
+
+# Docker çalışma dosyaları
+**/.docker/
+**/docker-data/
+**/docker-volumes/
+**/docker-entrypoint.d/
