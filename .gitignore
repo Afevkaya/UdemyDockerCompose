@@ -41,8 +41,6 @@ secrets.json
 *.tmp
 
 # Docker
-**/Dockerfile.*
-**/docker-compose*.yml
 .dockerignore
 docker-compose.override.yml
 docker-compose.debug.yml
@@ -54,3 +52,10 @@ docker-compose.test.yml
 **/docker-data/
 **/docker-volumes/
 **/docker-entrypoint.d/
+
+# IDE ve sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Publish klasörü (isteğe bağlı, genelde build sırasında oluşur)
+publish/
