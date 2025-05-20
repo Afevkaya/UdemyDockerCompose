@@ -12,7 +12,8 @@ public class WeatherForecastController : ControllerBase
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
-
+    private static int _counter;
+    
     public WeatherForecastController(ILogger<WeatherForecastController> logger)
     {
         _logger = logger;
@@ -28,5 +29,12 @@ public class WeatherForecastController : ControllerBase
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+    }
+    
+    [HttpPost("counter")]
+    public IActionResult Post()
+    {
+        _counter++;
+        return Ok(_counter);
     }
 }
